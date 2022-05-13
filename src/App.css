@@ -1,7 +1,16 @@
 .header{
+    position: sticky;
     text-align: center;
     color: white;
     font-weight: bolder;
     font-size: larger;
     background-color: grey;
+}
+ul{
+    margin: 15px;
+    padding: 15px;
+}
+.navbar {
+    padding: 5px;
+    display: inline;
 }
