@@ -6,6 +6,14 @@ header {
   font-size: larger;
   background-color: grey;
 }
+ul {
+    margin: 15px;
+   
+  }
+.navbar {
+    padding: 5px;
+    display: inline;
+  }
 main {
   background-color: brown;
 }
@@ -20,11 +28,10 @@ section {
     width: 200px;
     height: 200px;
 }
-ul {
-  margin: 15px;
-  padding: 15px;
+.footer{
+    margin-top: 15px;
+    padding-top: 50px;
+    background-color: blue;
 }
-.navbar {
-  padding: 5px;
-  display: inline;
-}
+
+
