@@ -1,4 +1,4 @@
-.container-header{
+.container-header {
   position: sticky;
   top: 0px;
 }
@@ -8,25 +8,34 @@ header {
   font-weight: bolder;
   font-size: larger;
   background-color: grey;
-
 }
 h1 {
+  padding: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.container-img{
+.container-img {
   padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.img-fluid{
+.img-fluid {
   padding: 5px;
-  height:55px;
+  height: 55px;
   width: 60px;
 }
 ul {
   margin: 15px;
+}
+/*body*/
+.container-frontend {
+  display: flex;
+  justify-content: center;
+}
+.front-end-p{
+  color: white;
+  font-weight: bold;
 }
 .navbar {
   font-size: larger;
