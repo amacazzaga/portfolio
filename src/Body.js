@@ -1,14 +1,21 @@
-import React from 'react'
+import React from "react";
+import Proyect from "./Proyect";
 
 const Body = () => {
   return (
-      <main>
-    <div>Body</div>
-    <div>Body</div>
-    <div>Body</div>
-    <div>Body</div>
+    <main className="container">
+      <section className="section">
+        <div>
+          <Proyect />
+          <Proyect />
+        </div>
+        <div>
+          <Proyect />
+          <Proyect />
+        </div>
+      </section>
     </main>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;

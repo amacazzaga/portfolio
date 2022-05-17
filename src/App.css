@@ -1,16 +1,30 @@
-.header{
-    position: sticky;
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    background-color: grey;
+header {
+  position: sticky;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: grey;
 }
-ul{
-    margin: 15px;
-    padding: 15px;
+main {
+  background-color: brown;
+}
+section {
+  display: flex;
+ justify-content: center;
+}
+.proyect {
+   justify-items: center;
+    margin: 10px, 5px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+ul {
+  margin: 15px;
+  padding: 15px;
 }
 .navbar {
-    padding: 5px;
-    display: inline;
+  padding: 5px;
+  display: inline;
 }

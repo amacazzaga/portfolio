@@ -8,7 +8,7 @@ function App() {
       <div className="container-header">
         <Header />
       </div>
-      <div>
+      <div className="container-main">
         <Body />
       </div>
     </div>
