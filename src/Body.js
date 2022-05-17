@@ -3,13 +3,13 @@ import Proyect from "./Proyect";
 
 const Body = () => {
   return (
-    <main className="container">
+    <main className="container-main">
       <section className="section">
-        <div>
+        <div className="section-1">
           <Proyect />
           <Proyect />
         </div>
-        <div>
+        <div className="section-2">
           <Proyect />
           <Proyect />
         </div>
