@@ -33,7 +33,8 @@ ul {
   display: flex;
   justify-content: center;
 }
-.front-end-p{
+.front-end-p {
+  padding: 5px;
   color: white;
   font-weight: bold;
 }
@@ -70,10 +71,18 @@ section {
   width: 200px;
   height: 200px;
 }
+/*FOOTER*/
 .footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 15px;
   padding-top: 50px;
   background-color: blue;
+}
+.contact-div {
+}
+h4 {
+  color: white;
+  font-weight: bolder;
 }
