@@ -25,9 +25,7 @@ h1 {
   height: 55px;
   width: 60px;
 }
-ul {
-  margin: 15px;
-}
+
 /*body*/
 .container-frontend {
   display: flex;
@@ -80,9 +78,17 @@ section {
   padding-top: 50px;
   background-color: blue;
 }
-.contact-div {
-}
+
 h4 {
+  margin: 10px;
   color: white;
   font-weight: bolder;
+}
+section {
+  padding: 15px;
+}
+.img-fluid-contact{
+  padding: 5px;
+  height: 45px;
+  width: 45px;
 }
