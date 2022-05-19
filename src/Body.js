@@ -5,9 +5,9 @@ const Body = () => {
   return (
     <main className="container-main">
       <div className="container-frontend">
-      <p className="front-end-p">Front-End Developer with Javascript</p>
+        <p className="front-end-p">Front-End Developer with Javascript</p>
       </div>
-      <section className="section">
+      <section className="container-section">
         <div className="section-1">
           <Proyect />
           <Proyect />

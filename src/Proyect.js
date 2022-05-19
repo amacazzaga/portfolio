@@ -1,13 +1,15 @@
 import React from "react";
 import { useState } from "react";
+import simonSays from "./img/simonsays.jpeg";
 
 const Proyect = () => {
   const [state, setState] = useState("collapse");
 
   return (
     <div className="proyect">
-      Proyect
+      <img className="img-fluid-proyect" src={simonSays} />
       <p>
+        <div className="button-description-container">
         <button
           onClick={() => {
             if (state === "collapse") {
@@ -25,6 +27,7 @@ const Proyect = () => {
         >
           Description
         </button>
+        </div>
       </p>
       <div className={state} id="collapseExample">
         <div class="card card-body">

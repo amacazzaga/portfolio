@@ -13,7 +13,7 @@ function App() {
         <Body />
       </div>
       <div className="container-footer">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
