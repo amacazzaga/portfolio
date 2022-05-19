@@ -23,12 +23,12 @@ const Proyect = () => {
           aria-expanded="false"
           aria-controls="collapseExample"
         >
-         Description
+          Description
         </button>
       </p>
       <div className={state} id="collapseExample">
         <div class="card card-body">
-         This game is a classic all time called simonSays
+          This game is a classic all time called simonSays
         </div>
       </div>
     </div>
