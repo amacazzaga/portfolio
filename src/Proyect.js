@@ -1,16 +1,13 @@
 import React from "react";
 import { useState } from "react";
-import simonSays from "./img/simonsays.png";
 
-const Proyect = ({ href }) => {
+const Proyect = ({ href,img }) => {
   const [state, setState] = useState("collapse");
 
   return (
     <div className="proyect">
       <a href={href}>
-        <img className="img-fluid-proyect"
-         src={simonSays}
-        ></img>
+        <img className="img-fluid-proyect" src={img}></img>
       </a>
       <p>
         <div className="button-description-container">
