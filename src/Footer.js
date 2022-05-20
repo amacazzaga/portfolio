@@ -5,7 +5,7 @@ import EmailLogo from "./img/email.png";
 import { useState } from "react";
 
 const Footer = () => {
-  const [state, setState] = useState("accordion-collapse collapse.show");
+  const [state, setState] = useState("accordion-collapse collapse");
   return (
     <div className="footer">
       <div className="contact-div">
@@ -45,7 +45,6 @@ const Footer = () => {
                   </li>
                   <li className="navbar">
                     <a href="https://github.com/amacazzaga">
-                      {" "}
                       <img className="img-fluid-contact" src={GithubLogo} />
                     </a>
                   </li>

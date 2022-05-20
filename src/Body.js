@@ -13,7 +13,7 @@ const Body = () => {
           <Proyect />
         </div>
         <div className="section-2">
-          <Proyect />
+          <Proyect href="https://simon-says-kappa.vercel.app/" />
           <Proyect />
         </div>
       </section>
