@@ -19,16 +19,16 @@ const ProyectReact = ({
       <p>
         <div className="container-img">
           <div>
-            <img className="img-fluid" src={JavascriptLogo} alt="" />
+            <img className="img-fluid-proyectReact" src={JavascriptLogo} alt="" />
           </div>
           <div>
-            <img className="img-fluid" src={ReactLogo} alt="" />
+            <img className="img-fluid-proyectReact" src={ReactLogo} alt="" />
           </div>
           <div>
-            <img className="img-fluid" src={HtmlLogo} alt="" />
+            <img className="img-fluid-proyectReact" src={HtmlLogo} alt="" />
           </div>
           <div>
-            <img className="img-fluid" src={CssLogo} alt="" />
+            <img className="img-fluid-proyectReact" src={CssLogo} alt="" />
           </div>
         </div>
         <div className="button-description-container">

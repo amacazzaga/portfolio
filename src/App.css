@@ -72,7 +72,18 @@ section {
   width: 250px;
   height: 170px;
 }
-
+.img-fluid-proyectReact{
+  margin: 5px;
+  margin-left: 15px;
+  width:35px ;
+  height: 25px;
+}
+.img-fluid-proyectVJavascript{
+  margin: 5px;
+  margin-left: 15px;
+  width:35px ;
+  height: 25px;
+}
 .btn-primary{
 margin: 10px
 }
