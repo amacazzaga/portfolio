@@ -1,7 +1,13 @@
 import React from "react";
 import { useState } from "react";
 
-const Proyect = ({ href,img }) => {
+const ProyectVJavascript = ({
+  href,
+  img,
+  JavascriptLogo,
+  HtmlLogo,
+  CssLogo,
+}) => {
   const [state, setState] = useState("collapse");
 
   return (
@@ -10,6 +16,17 @@ const Proyect = ({ href,img }) => {
         <img className="img-fluid-proyect" src={img}></img>
       </a>
       <p>
+        <div className="container-img">
+          <div>
+            <img className="img-fluid" src={JavascriptLogo} alt="" />
+          </div>
+          <div>
+            <img className="img-fluid" src={HtmlLogo} alt="" />
+          </div>
+          <div>
+            <img className="img-fluid" src={CssLogo} alt="" />
+          </div>
+        </div>
         <div className="button-description-container">
           <button
             className="button-description"
@@ -40,4 +57,4 @@ const Proyect = ({ href,img }) => {
   );
 };
 
-export default Proyect;
+export default ProyectVJavascript;
