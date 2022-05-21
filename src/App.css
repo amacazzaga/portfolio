@@ -78,8 +78,7 @@ section {
   height: 300px;
 }
 .proyect:hover {
- 
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .img-fluid-proyect {
@@ -127,4 +126,7 @@ section {
 }
 .accordion-button {
   font-weight: bold;
+}
+.accordion-button:hover{
+  transform: scale(1.1);
 }
