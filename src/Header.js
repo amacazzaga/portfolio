@@ -20,11 +20,7 @@ const Header = () => {
         <div>
           <img className="img-fluid" src={CssLogo} alt="" />
         </div>
-       
       </div>
-      <div className="div-h1">
-        <h1>Agustin Macazzaga</h1>
-        </div>
     </header>
   );
 };
