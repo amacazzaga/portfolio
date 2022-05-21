@@ -5,9 +5,9 @@ header {
   font-size: larger;
   background-color: grey;
 }
-.container-name{
+.container-name {
   position: sticky;
-  top:0%;
+  top: 0%;
 }
 .div-h1 {
   color: white;
@@ -61,12 +61,17 @@ section {
   justify-content: center;
 }
 .section-1 {
-  margin-top: 15px;
+  margin-right: 20px;
+  margin-top: 45px;
 }
 .section-2 {
-  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 45px;
 }
 .proyect {
+  background-color: rgb(247, 247, 211);
+  border-radius: 5px;
+  border: solid;
   justify-items: center;
   margin: 20px;
   padding: 5px;
@@ -74,6 +79,7 @@ section {
 }
 
 .img-fluid-proyect {
+  border: solid;
   width: 250px;
   height: 170px;
 }
