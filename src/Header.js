@@ -7,7 +7,6 @@ import ReactLogo from "./img/react.png";
 const Header = () => {
   return (
     <header>
-      <h1>Agustin Macazzaga</h1>
       <div className="container-img">
         <div>
           <img className="img-fluid" src={JavascriptLogo} alt="" />
@@ -21,7 +20,11 @@ const Header = () => {
         <div>
           <img className="img-fluid" src={CssLogo} alt="" />
         </div>
+       
       </div>
+      <div className="div-h1">
+        <h1>Agustin Macazzaga</h1>
+        </div>
     </header>
   );
 };

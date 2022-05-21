@@ -1,6 +1,7 @@
-.container-header {
+
+.container-header{
   position: sticky;
-  top: 0px;
+  top:0%;
 }
 header {
   text-align: center;
@@ -8,6 +9,10 @@ header {
   font-weight: bolder;
   font-size: larger;
   background-color: grey;
+}
+.div-h1{
+  position: sticky;
+  top: 0px;
 }
 h1 {
   padding: 5px;
@@ -48,7 +53,7 @@ a {
   color: white;
 }
 main {
-  background-color: brown;
+  background-color: rgb(184, 69, 69);
 }
 section {
   display: flex;
