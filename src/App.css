@@ -98,6 +98,9 @@ section {
   width: 35px;
   height: 25px;
 }
+.button-description-container{
+  margin-left: 14px;
+}
 .btn-primary {
   margin: 10px;
 }
