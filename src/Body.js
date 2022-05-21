@@ -9,6 +9,7 @@ import JavascriptLogo from "./img/javascript.png";
 import HtmlLogo from "./img/hhtml.png";
 import CssLogo from "./img/css.png";
 import ReactLogo from "./img/react.png";
+import DescriptionButton from "./DescriptionButton";
 
 const Body = () => {
   return (
@@ -26,6 +27,7 @@ const Body = () => {
             CssLogo={CssLogo}
             ReactLogo={ReactLogo}
           />
+          <DescriptionButton />
           <ProyectVJavascript
             href="https://tic-tac-toe-six-dusky.vercel.app/"
             img={tictactoe}
@@ -33,6 +35,7 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
+          <DescriptionButton />
         </div>
         <div className="section-2">
           <ProyectVJavascript
@@ -42,6 +45,7 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
+          <DescriptionButton />
           <ProyectVJavascript
             href="https://calculator-seven-nu.vercel.app/"
             img={calculator}
@@ -49,6 +53,7 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
+          <DescriptionButton />
         </div>
       </section>
     </main>
