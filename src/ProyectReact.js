@@ -8,6 +8,7 @@ const ProyectReact = ({
   HtmlLogo,
   ReactLogo,
   CssLogo,
+ 
 }) => {
   
 

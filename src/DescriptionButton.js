@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const DescriptionButton = () => {
+const DescriptionButton = ({description}) => {
   const [state, setState] = useState("collapse");
   return (
     <div>
@@ -28,7 +28,7 @@ const DescriptionButton = () => {
       </div>
       <div className={state} id="collapseExample">
         <div class="card card-body">
-          This game is a classic all time called simonSays
+          {description}
         </div>
       </div>
     </div>

@@ -27,7 +27,9 @@ const Body = () => {
             CssLogo={CssLogo}
             ReactLogo={ReactLogo}
           />
-          <DescriptionButton />
+          <DescriptionButton
+            description={<p>This is a challenge from Alkemy.org</p>}
+          />
           <ProyectVJavascript
             href="https://tic-tac-toe-six-dusky.vercel.app/"
             img={tictactoe}
@@ -35,7 +37,11 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
-          <DescriptionButton />
+          <DescriptionButton
+            description={
+              <p>My first game on Vanilla Javascript!, Enjoy it :)</p>
+            }
+          />
         </div>
         <div className="section-2">
           <ProyectVJavascript
@@ -45,7 +51,13 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
-          <DescriptionButton />
+          <DescriptionButton
+            description={
+              <p>
+               Classics, never get old, Try it!
+              </p>
+            }
+          />
           <ProyectVJavascript
             href="https://calculator-seven-nu.vercel.app/"
             img={calculator}
@@ -53,7 +65,13 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
-          <DescriptionButton />
+          <DescriptionButton
+            description={
+              <p>
+                Made a calculator just for fun and some practice!.
+              </p>
+            }
+          />
         </div>
       </section>
     </main>
