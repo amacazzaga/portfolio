@@ -61,11 +61,9 @@ section {
   justify-content: center;
 }
 .section-1 {
-  
   margin-top: 45px;
 }
 .section-2 {
-  
   margin-top: 45px;
 }
 .proyect {
@@ -88,7 +86,6 @@ section {
 }
 .img-fluid-proyectReact {
   margin: 5px;
-  margin-left: 15px;
   width: 35px;
   height: 25px;
 }
@@ -98,7 +95,7 @@ section {
   width: 35px;
   height: 25px;
 }
-.button-description-container{
+.button-description-container {
   margin-left: 14px;
 }
 .btn-primary {
@@ -130,6 +127,6 @@ section {
 .accordion-button {
   font-weight: bold;
 }
-.accordion-button:hover{
+.accordion-button:hover {
   transform: scale(1.1);
 }

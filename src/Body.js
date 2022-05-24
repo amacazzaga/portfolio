@@ -9,6 +9,7 @@ import JavascriptLogo from "./img/javascript.png";
 import HtmlLogo from "./img/hhtml.png";
 import CssLogo from "./img/css.png";
 import ReactLogo from "./img/react.png";
+import BootstrapLogo from "./img/bootstrap.png"
 import DescriptionButton from "./DescriptionButton";
 
 const Body = () => {
@@ -26,6 +27,7 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
             ReactLogo={ReactLogo}
+            BootstrapLogo ={BootstrapLogo}
           />
           <DescriptionButton
             description={<p>This is a challenge from Alkemy.org</p>}
