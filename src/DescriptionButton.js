@@ -5,7 +5,6 @@ const DescriptionButton = ({description}) => {
   const [state, setState] = useState("collapse");
   return (
     <div>
-      {" "}
       <div className="button-description-container">
         <button
           className="button-description"
