@@ -1,4 +1,5 @@
 import React from "react";
+import DescriptionButton from "./DescriptionButton";
 
 const ProyectReact = ({
   href,
@@ -8,6 +9,7 @@ const ProyectReact = ({
   ReactLogo,
   CssLogo,
   BootstrapLogo,
+  description
 }) => {
   return (
     <div className="proyect">
@@ -31,6 +33,7 @@ const ProyectReact = ({
           <img className="img-fluid-proyectReact" src={BootstrapLogo} alt="" />
         </div>
       </div>
+      <DescriptionButton description={description}/>
     </div>
   );
 };

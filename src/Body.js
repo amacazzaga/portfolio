@@ -1,3 +1,4 @@
+import { useState } from "react";
 import React from "react";
 import ProyectReact from "./ProyectReact";
 import ProyectVJavascript from "./ProyectVJavascript";
@@ -9,17 +10,18 @@ import JavascriptLogo from "./img/javascript.png";
 import HtmlLogo from "./img/hhtml.png";
 import CssLogo from "./img/css.png";
 import ReactLogo from "./img/react.png";
-import BootstrapLogo from "./img/bootstrap.png"
-import DescriptionButton from "./DescriptionButton";
+import BootstrapLogo from "./img/bootstrap.png";
+
 
 const Body = () => {
+  const [state, setState] = useState("collapse");
   return (
-    <main className="container-main">
+    <div className="container-xl">
       <div className="container-frontend">
         <p className="front-end-p">Front-End Developer with Javascript</p>
       </div>
-      <section className="container-section">
-        <div className="section-1">
+      <div className="col">
+        <div class="col-11 d-flex justify-content-center ">
           <ProyectReact
             href="https://challenge-react-kp1ugbf7s-amacazzaga.vercel.app/"
             img={menuhotel}
@@ -27,11 +29,11 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
             ReactLogo={ReactLogo}
-            BootstrapLogo ={BootstrapLogo}
+            BootstrapLogo={BootstrapLogo}
+            description ={<p>menuhotel</p>}
           />
-          <DescriptionButton
-            description={<p>This is a challenge from Alkemy.org</p>}
-          />
+        </div>
+        <div class="col-6 ">
           <ProyectVJavascript
             href="https://tic-tac-toe-six-dusky.vercel.app/"
             img={tictactoe}
@@ -39,13 +41,11 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
-          <DescriptionButton
-            description={
-              <p>My first game on Vanilla Javascript!, Enjoy it :)</p>
-            }
-          />
+
+          <p>My first game on Vanilla Javascript!, Enjoy it :</p>
         </div>
-        <div className="section-2">
+        <div class="w-100"></div>
+        <div class="col-6 ">
           <ProyectVJavascript
             href="https://simon-says-kappa.vercel.app/"
             img={simonSays}
@@ -53,13 +53,10 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
-          <DescriptionButton
-            description={
-              <p>
-               Classics, never get old, Try it!
-              </p>
-            }
-          />
+
+          <p>Classics, never get old, Try it!</p>
+        </div>
+        <div class="col-6 ">
           <ProyectVJavascript
             href="https://calculator-seven-nu.vercel.app/"
             img={calculator}
@@ -67,16 +64,11 @@ const Body = () => {
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
           />
-          <DescriptionButton
-            description={
-              <p>
-                Made a calculator just for fun and some practice!.
-              </p>
-            }
-          />
+
+          <p>Made a calculator just for fun and some practice!.</p>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
   );
 };
 
