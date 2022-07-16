@@ -18,8 +18,9 @@ const Body = () => {
       <div className="container-frontend">
         <p className="front-end-p">Front-End Developer with Javascript</p>
       </div>
-      <div className="col">
-        <div class="col-12 d-flex justify-content-center ">
+      <div className="container">
+      <div className="row">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 d-flex justify-content-center ">
           <ProyectReact
             href="https://challenge-react-kp1ugbf7s-amacazzaga.vercel.app/"
             img={menuhotel}
@@ -31,7 +32,7 @@ const Body = () => {
             description={<p>menuhotel</p>}
           />
         </div>
-        <div class="col-12 d-flex justify-content-center ">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 d-flex justify-content-center ">
           <ProyectVJavascript
             href="https://tic-tac-toe-six-dusky.vercel.app/"
             img={tictactoe}
@@ -43,8 +44,7 @@ const Body = () => {
             }
           />
         </div>
-        <div class="w-100"></div>
-        <div class="col-12 d-flex justify-content-center ">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6  d-flex justify-content-center ">
           <ProyectVJavascript
             href="https://simon-says-kappa.vercel.app/"
             img={simonSays}
@@ -54,7 +54,7 @@ const Body = () => {
             description={<p>Classics, never get old, Try it!</p>}
           />
         </div>
-        <div class="col-12 d-flex justify-content-center ">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6  d-flex justify-content-center ">
           <ProyectVJavascript
             href="https://calculator-seven-nu.vercel.app/"
             img={calculator}
@@ -66,6 +66,7 @@ const Body = () => {
             }
           />
         </div>
+      </div>
       </div>
     </div>
   );
