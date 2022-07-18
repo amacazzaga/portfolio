@@ -41,6 +41,7 @@ const Content = () => {
             description={
               <p>My first game on Vanilla Javascript!, Enjoy it :</p>
             }
+            title={<p>Tic Tac Toe</p>}
           />
         </div>
         <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6  d-flex justify-content-center ">
