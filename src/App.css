@@ -3,7 +3,7 @@ header {
   color: white;
   font-weight: bolder;
   font-size: larger;
-  background-color: grey;
+  background-color: #0a9396;
 }
 
 .div-h1 {
@@ -52,6 +52,9 @@ a {
 main {
   background-color: brown;
 }
+.card {
+  background-color: #e9d8a6;
+}
 
 .button-description-container {
   margin-left: 14px;
@@ -66,7 +69,7 @@ main {
   align-items: center;
   margin-top: 15px;
   padding-top: 50px;
-  background-color: blue;
+  background-color: #0a9396;
 }
 
 h4 {

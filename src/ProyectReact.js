@@ -14,7 +14,7 @@ const ProyectReact = ({
           <img className="card-img-top" src={img}></img>
         </a>
         <div>
-        <p class="card-text">
+        <p class="card-text m-2">
           {description}
           </p>
           <a href="#" class="btn btn-primary">    

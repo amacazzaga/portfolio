@@ -28,7 +28,7 @@ const Content = () => {
               CssLogo={CssLogo}
               ReactLogo={ReactLogo}
               BootstrapLogo={BootstrapLogo}
-              description={<p>menuhotel</p>}
+              description={<p>This is my first proyect using React , Bootstrap, and consuming a real API</p>}
             />
           </div>
           <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6  d-flex justify-content-center ">
@@ -39,7 +39,7 @@ const Content = () => {
               HtmlLogo={HtmlLogo}
               CssLogo={CssLogo}
               title={<p>Simon Says</p>}
-              description={<p>Classics, never get old, Try it!</p>}
+              description={<p>I replicate a classic game with Vanilla Javascript, CSS and HTML</p>}
             />
           </div>
           <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 d-flex justify-content-center ">
