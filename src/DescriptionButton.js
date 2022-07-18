@@ -11,7 +11,7 @@ const DescriptionButton = ({description}) => {
               setState("");
             }
           }} class="dropdown">
-  <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+  <a class="btn btn-secondary dropdown-toggle "  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
     Description
   </a>
   <ul class= {`dropdown-menu ${state}`} aria-labelledby="dropdownMenuLink">
