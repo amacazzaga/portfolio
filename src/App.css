@@ -3,12 +3,13 @@ header {
   color: white;
   font-weight: bolder;
   font-size: larger;
-  background-color: #0a9396;
+  background-color: #354f52;
 }
 
 .div-h1 {
   color: white;
-  background-color: grey;
+  background-color:   #354f52;
+  ;
   text-align: center;
 }
 h1 {
@@ -50,10 +51,10 @@ a {
   color: white;
 }
 main {
-  background-color: brown;
+  background-color: #52796f
 }
 .card {
-  background-color: #e9d8a6;
+  background-color: #cad2c5;
 }
 
 .button-description-container {
@@ -69,7 +70,7 @@ main {
   align-items: center;
   margin-top: 15px;
   padding-top: 50px;
-  background-color: #0a9396;
+  background-color: #354f52;
 }
 
 h4 {
