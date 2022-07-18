@@ -5,6 +5,7 @@ const ProyectReact = ({
   href,
   img,
   description,
+  repo
 }) => {
   return (
     <div className="card proyect m-5">
@@ -17,7 +18,7 @@ const ProyectReact = ({
         <p class="card-text m-2">
           {description}
           </p>
-          <a href="#" class="btn btn-primary">    
+          <a href={repo} class="btn btn-primary">    
           Go Repository       
           </a>
         </div>

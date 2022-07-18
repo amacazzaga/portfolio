@@ -28,7 +28,13 @@ const Content = () => {
               CssLogo={CssLogo}
               ReactLogo={ReactLogo}
               BootstrapLogo={BootstrapLogo}
-              description={<p>This is my first proyect using React , Bootstrap, and consuming a real API</p>}
+              description={
+                <p>
+                  This is my first proyect using React , Bootstrap, and
+                  consuming a real API
+                </p>
+              }
+              repo="https://github.com/amacazzaga/moviestmbd"
             />
           </div>
           <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6  d-flex justify-content-center ">
@@ -39,7 +45,13 @@ const Content = () => {
               HtmlLogo={HtmlLogo}
               CssLogo={CssLogo}
               title={<p>Simon Says</p>}
-              description={<p>I replicate a classic game with Vanilla Javascript, CSS and HTML</p>}
+              description={
+                <p>
+                  I replicate a classic game with Vanilla Javascript, CSS and
+                  HTML
+                </p>
+              }
+              repo ="https://github.com/amacazzaga/simon-says"
             />
           </div>
           <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 d-flex justify-content-center ">
@@ -53,6 +65,7 @@ const Content = () => {
               description={
                 <p>My first game on Vanilla Javascript!, Enjoy it :</p>
               }
+              repo ="https://github.com/amacazzaga/Tic-Tac-Toe"
             />
           </div>
 
@@ -67,6 +80,7 @@ const Content = () => {
               description={
                 <p>Made a calculator just for fun and some practice!.</p>
               }
+              repo="https://github.com/amacazzaga/Calculator"
             />
           </div>
         </div>

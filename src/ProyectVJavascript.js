@@ -1,12 +1,7 @@
 import React from "react";
 import DescriptionButton from "./DescriptionButton";
 
-const ProyectVJavascript = ({
-  href,
-  img,
-  description,
-  title
-}) => {
+const ProyectVJavascript = ({ href, img, description, title, repo }) => {
   return (
     <div className="card proyect m-5">
       <h5 class="card-title m-2">{title}</h5>
@@ -15,10 +10,8 @@ const ProyectVJavascript = ({
           <img className="card-img-top" src={img}></img>
         </a>
         <div>
-          <p class="card-text m-2">
-          {description}
-          </p>
-          <a href="#" class="btn btn-primary">
+          <p class="card-text m-2">{description}</p>
+          <a href={repo} class="btn btn-primary">
             Go Repository
           </a>
         </div>
