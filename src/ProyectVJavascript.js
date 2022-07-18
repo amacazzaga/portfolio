@@ -14,15 +14,12 @@ const ProyectVJavascript = ({
         <a href={href}>
           <img className="card-img-top" src={img}></img>
         </a>
-
-        <DescriptionButton description={description} />
         <div>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p class="card-text m-2">
+          {description}
           </p>
           <a href="#" class="btn btn-primary">
-            Go somewhere
+            Go Repository
           </a>
         </div>
       </div>

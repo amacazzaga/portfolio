@@ -12,7 +12,7 @@ const DescriptionButton = ({ description }) => {
           setState("");
         }
       }}
-      class="dropdown"
+      class="dropdown m-3"
     >
       <a
         class="btn btn-secondary dropdown-toggle "
