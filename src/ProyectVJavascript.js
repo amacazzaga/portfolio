@@ -10,34 +10,12 @@ const ProyectVJavascript = ({
   description,
 }) => {
   return (
-    <div className="card proyect" >
+    <div className="card proyect m-5">
       <div class="card-body">
         <a href={href}>
-          <img className="card-img-top img-fluid-proyect" src={img}></img>
+          <img className="card-img-top" src={img}></img>
         </a>
-        <div className="container-img">
-          <div>
-            <img
-              className="img-fluid-proyectVJavascript"
-              src={JavascriptLogo}
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="img-fluid-proyectVJavascript"
-              src={HtmlLogo}
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="img-fluid-proyectVJavascript"
-              src={CssLogo}
-              alt=""
-            />
-          </div>
-        </div>
+      
         <DescriptionButton description={description} />
         <div>
           <h5 class="card-title">Card title</h5>
@@ -48,6 +26,29 @@ const ProyectVJavascript = ({
           <a href="#" class="btn btn-primary">
             Go somewhere
           </a>
+          <div className="container d-flex">
+          <div>
+            <img
+              className="img-fluid"
+              src={JavascriptLogo}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="img-fluid"
+              src={HtmlLogo}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="img-fluid"
+              src={CssLogo}
+              alt=""
+            />
+          </div>
+        </div>
         </div>
       </div>
     </div>

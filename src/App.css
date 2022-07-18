@@ -5,10 +5,7 @@ header {
   font-size: larger;
   background-color: grey;
 }
-.container-name {
-  position: sticky;
-  top: 0%;
-}
+
 .div-h1 {
   color: white;
   background-color: grey;
@@ -56,27 +53,6 @@ main {
   background-color: brown;
 }
 
-
-.proyect:hover {
-  transform: scale(1.1);
-}
-
-.img-fluid-proyect {
-  border: solid;
-  width: 250px;
-  height: 170px;
-}
-.img-fluid-proyectReact {
-  margin: 5px;
-  width: 35px;
-  height: 25px;
-}
-.img-fluid-proyectVJavascript {
-  margin: 5px;
-  margin-left: 15px;
-  width: 35px;
-  height: 25px;
-}
 .button-description-container {
   margin-left: 14px;
 }
