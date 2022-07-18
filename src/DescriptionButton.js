@@ -2,35 +2,22 @@ import React from "react";
 import { useState } from "react";
 
 const DescriptionButton = ({description}) => {
-  const [state, setState] = useState("collapse");
+  const [state, setState] = useState("");
   return (
-    <div>
-      <div className="button-description-container">
-        <button
-          className="button-description"
-          onClick={() => {
-            if (state === "collapse") {
-              setState("collapse.show");
-            } else if (state === "collapse.show") {
-              setState("collapse");
+<div  onClick={() => {
+            if (state === "") {
+              setState("show");
+            } else if (state === "show") {
+              setState("");
             }
-          }}
-          class="btn btn-primary"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseExample"
-          aria-expanded="false"
-          aria-controls="collapseExample"
-        >
-          Description
-        </button>
-      </div>
-      <div className={state} id="collapseExample">
-        <div class="card card-body">
-          {description}
-        </div>
-      </div>
-    </div>
+          }} class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+    Description
+  </a>
+  <ul class= {`dropdown-menu ${state}`} aria-labelledby="dropdownMenuLink">
+    <p>{description}</p>
+  </ul>
+</div>
   );
 };
 

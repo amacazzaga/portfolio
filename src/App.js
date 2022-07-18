@@ -1,8 +1,9 @@
 import Header from "./Header";
-import Body from "./Body";
+import Body from "./Content";
 import Footer from "./Footer";
 import Name from "./Name";
 import "./App.css";
+import Content from "./Content";
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
           <Name />
         </div>
         <div className="container-main">
-          <Body />
+          <Content />
         </div>
-        <div className="container-footer">
-          <Footer />
-        </div>
+        <footer>
+          <div className="container-footer">
+            <Footer />
+          </div>
+        </footer>
       </main>
     </body>
   );

@@ -1,18 +1,17 @@
-import { useState } from "react";
 import React from "react";
 import ProyectReact from "./ProyectReact";
 import ProyectVJavascript from "./ProyectVJavascript";
 import simonSays from "./img/simonsays.png";
 import calculator from "./img/calculator.png";
 import tictactoe from "./img/tictactoe.png";
-import menuhotel from "./img/menuhotel.png";
+import tmbd from "./img/tmbd.jpeg"
 import JavascriptLogo from "./img/javascript.png";
 import HtmlLogo from "./img/hhtml.png";
 import CssLogo from "./img/css.png";
 import ReactLogo from "./img/react.png";
 import BootstrapLogo from "./img/bootstrap.png";
 
-const Body = () => {
+const Content = () => {
   return (
     <div className="container-xl">
       <div className="container-frontend">
@@ -22,8 +21,8 @@ const Body = () => {
       <div className="row">
         <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 d-flex justify-content-center ">
           <ProyectReact
-            href="https://challenge-react-kp1ugbf7s-amacazzaga.vercel.app/"
-            img={menuhotel}
+            href="https://moviestmbd.vercel.app/"
+            img={tmbd}
             JavascriptLogo={JavascriptLogo}
             HtmlLogo={HtmlLogo}
             CssLogo={CssLogo}
@@ -72,4 +71,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default Content;

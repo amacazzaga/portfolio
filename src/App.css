@@ -55,26 +55,8 @@ a {
 main {
   background-color: brown;
 }
-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.section-1 {
-  margin-top: 45px;
-}
-.section-2 {
-  margin-top: 45px;
-}
-.proyect {
-  background-color: rgb(247, 247, 211);
-  border-radius: 5px;
-  border: solid;
-  justify-items: center;
-  margin: 20px;
-  padding: 5px;
-  height: 300px;
-}
+
+
 .proyect:hover {
   transform: scale(1.1);
 }
@@ -116,9 +98,7 @@ h4 {
   color: white;
   font-weight: bolder;
 }
-section {
-  padding: 15px;
-}
+
 .img-fluid-contact {
   padding: 5px;
   height: 45px;
