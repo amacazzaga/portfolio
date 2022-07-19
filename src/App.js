@@ -20,7 +20,7 @@ function App() {
           <Content />
         </div>
         <footer>
-          <div className="container-footer">
+          <div className="container-footer ">
             <Footer />
           </div>
         </footer>
