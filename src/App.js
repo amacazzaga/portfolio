@@ -1,9 +1,8 @@
-import Header from "./Header";
-import Body from "./Content";
-import Footer from "./Footer";
-import Name from "./Name";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Name from "./components/Name";
+import Content from "./components/Content";
 import "./App.css";
-import Content from "./Content";
 
 function App() {
   return (

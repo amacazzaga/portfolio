@@ -1,9 +1,9 @@
 import React from "react";
-import JavascriptLogo from "./img/javascript.png";
-import HtmlLogo from "./img/hhtml.png";
-import CssLogo from "./img/css.png";
-import ReactLogo from "./img/react.png";
-import BootstrapLogo from "./img/bootstrap.png"
+import JavascriptLogo from "../img/javascript.png";
+import HtmlLogo from "../img/hhtml.png";
+import CssLogo from "../img/css.png";
+import ReactLogo from "../img/react.png";
+import BootstrapLogo from "../img/bootstrap.png"
 
 const Header = () => {
   return (

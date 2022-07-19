@@ -1,7 +1,7 @@
 import React from "react";
-import LinkedinLogo from "./img/linkedin.png";
-import GithubLogo from "./img/github.png";
-import EmailLogo from "./img/email.png";
+import LinkedinLogo from "../img/linkedin.png";
+import GithubLogo from "../img/github.png";
+import EmailLogo from "../img/email.png";
 import { useState } from "react";
 
 const Footer = () => {

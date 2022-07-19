@@ -1,15 +1,15 @@
 import React from "react";
 import ProyectReact from "./ProyectReact";
 import ProyectVJavascript from "./ProyectVJavascript";
-import simonSays from "./img/simonsays.png";
-import calculator from "./img/calculator.png";
-import tictactoe from "./img/tictactoe.png";
-import tmbd from "./img/tmbd.jpeg";
-import JavascriptLogo from "./img/javascript.png";
-import HtmlLogo from "./img/hhtml.png";
-import CssLogo from "./img/css.png";
-import ReactLogo from "./img/react.png";
-import BootstrapLogo from "./img/bootstrap.png";
+import simonSays from "../img/simonsays.png";
+import calculator from "../img/calculator.png";
+import tictactoe from "../img/tictactoe.png";
+import tmbd from "../img/tmbd.jpeg";
+import JavascriptLogo from "../img/javascript.png";
+import HtmlLogo from "../img/hhtml.png";
+import CssLogo from "../img/css.png";
+import ReactLogo from "../img/react.png";
+import BootstrapLogo from "../img/bootstrap.png";
 
 const Content = () => {
   return (
