@@ -13,11 +13,11 @@ import BootstrapLogo from "./img/bootstrap.png";
 
 const Content = () => {
   return (
-    <div className="container-xl">
+    <div className="container-xxl">
       <div className="container-frontend">
         <p className="front-end-p">Front-End Developer with Javascript</p>
       </div>
-      <div className="container">
+      <div className="container-xxl">
         <div className="row">
           <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 d-flex justify-content-center ">
             <ProyectReact
