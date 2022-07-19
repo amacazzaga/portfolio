@@ -8,7 +8,7 @@ const ProyectReact = ({
   repo
 }) => {
   return (
-    <div className="card proyect m-5">
+    <div className="card proyect m-2">
       <h5 class="card-title m-2">Movies TMBD</h5>
       <div class="card-body">
         <a href={href}>

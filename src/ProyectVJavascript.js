@@ -3,7 +3,7 @@ import DescriptionButton from "./DescriptionButton";
 
 const ProyectVJavascript = ({ href, img, description, title, repo }) => {
   return (
-    <div className="card proyect m-5">
+    <div className="card proyect m-2">
       <h5 class="card-title m-2">{title}</h5>
       <div class="card-body">
         <a href={href}>
